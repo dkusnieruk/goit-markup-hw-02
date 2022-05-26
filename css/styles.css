@@ -8,8 +8,8 @@ body{
 header{
 width:1600px;
 height:80px;
-border: 1px solid #ececec;
 }
+
 header li, ul {
     list-style:none;
     display:flex;
@@ -23,7 +23,7 @@ header a{
 header a:hover,
 .footer a:hover
 {
-    color:#2196f3
+    text-decoration:underline #2196f3;
 }
 
 
@@ -39,8 +39,9 @@ header a:hover,
 }
 .logo:hover, 
 .logo span:hover {
-    color:#2196f3;
-}
+    text-decoration:underline #2196f3;
+    }
+
 .logo span{
     color:black;
 }
@@ -53,7 +54,8 @@ header nav {
     margin-left:93px;
 }
 header nav a:hover{
-    color:#2196f3;
+    text-decoration:underline #2196f3;
+
 }
 header nav a{
     color:rgba(31,31,31,1);
@@ -82,7 +84,7 @@ header nav li
 }
 .mailto a:hover, 
 .tel a:hover {
-    color:#2196f3;
+    text-decoration:underline #2196f3; 
     cursor:pointer;
 }
 .button
@@ -92,8 +94,9 @@ header nav li
 .button:hover 
 
 {
-    color:#2196f3;
+    text-decoration:underline #2196f3; 
     cursor:pointer;
+    border: 3px solid #2196f3;
 }
 
 .menu{
@@ -252,7 +255,7 @@ background:#2F303A
 .top-index button:hover,
 .button button:hover{
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-   color:#2196f3;
+    text-decoration:underline #2196f3;
 }
 .container img{
     width:370px;
@@ -295,12 +298,16 @@ a {
     justify-content:center;
 }
 
+.card-set figure:hover{
+    border: 1px solid #2196f3;
+}
+
+
 .titles a:hover,
 .description a:hover,
 .containter img:hover
 {
-    color:#2196f3;
-    } 
+    text-decoration:underline #2196f3;   } 
 footer{
    width:1600px;
    height:252px;
