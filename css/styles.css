@@ -22,7 +22,6 @@ header a {
   text-decoration: none;
 }
 
-
 .logo {
   font-family: Raleway;
   font-weight: 700;
@@ -35,7 +34,7 @@ header a {
 }
 .logo:hover,
 .logo span:hover {
-  cursor:pointer;
+  cursor: pointer;
 }
 
 .logo span {
@@ -50,7 +49,7 @@ header nav {
   margin-left: 93px;
 }
 header nav a:hover {
-  background-color: #2196f3;
+  color: #2196f3;
 }
 header nav a {
   color: rgba(31, 31, 31, 1);
@@ -75,16 +74,14 @@ header nav li {
 }
 .mailto a:hover,
 .tel a:hover {
-  background-color: #2196f3;
+  color: #2196f3;
   cursor: pointer;
 }
 .button {
   margin-top: 94px;
 }
 .button:hover {
-
   cursor: pointer;
-
 }
 
 .menu {
@@ -236,7 +233,8 @@ header nav li {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   background-color: #2196f3;
-  cursor:pointer;
+  cursor: pointer;
+  color: #ffffff;
 }
 .container img {
   width: 370px;
@@ -279,12 +277,6 @@ a {
   justify-content: center;
 }
 
-
-.titles a:hover,
-.description a:hover,
-.containter img:hover {
-  background-color: #2196f3;
-}
 footer {
   width: 1600px;
   height: 252px;
